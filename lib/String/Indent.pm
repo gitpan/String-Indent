@@ -1,7 +1,7 @@
 package String::Indent;
 
-our $DATE = '2014-12-10'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $DATE = '2015-01-03'; # DATE
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -40,7 +40,7 @@ String::Indent - String indenting routines
 
 =head1 VERSION
 
-This document describes version 0.01 of String::Indent (from Perl distribution String-Indent), released on 2014-12-10.
+This document describes version 0.02 of String::Indent (from Perl distribution String-Indent), released on 2015-01-03.
 
 =head1 FUNCTIONS
 
@@ -61,13 +61,9 @@ or more whitespaces).
 
 =back
 
-=head1 TODO
-
-Option 'first_line_indent'.
-
-'dedent' function.
-
 =head1 SEE ALSO
+
+L<Indent::String>, L<String::Nudge>
 
 =head1 HOMEPAGE
 
@@ -91,7 +87,7 @@ perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by perlancar@cpan.org.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
